@@ -27,7 +27,7 @@
 .navbar-default {
     background-color: #212121;
     border-color: #212121;
-    margin-bottom: 0;
+    // margin-bottom: 0;
     border-radius: 0;
 }
 
@@ -75,6 +75,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 50px;
+   margin-top: -20px;
 
    .box-inner {
        background-color: rgba(250, 250, 250, 0.69);
@@ -160,7 +161,7 @@
 
 
  // 设置弹窗样式
- // 若不设置此样式，弹窗会是灰色风格，感觉好像更好。。
+ // 若不设置此样式，弹窗会是透明风格，感觉好像更好。。
 
 /****** LOGIN MODAL ******/
 .loginmodal-container {
@@ -255,4 +256,10 @@
 
 .login-help{
   font-size: 12px;
+}
+
+// -----common------
+.col-center{
+  float: none;
+  margin: 0 auto;
 }
