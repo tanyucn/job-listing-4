@@ -35,6 +35,7 @@ gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'will_paginate'
+gem 'annotate'
 
 
 

@@ -19,7 +19,7 @@ class JobsController < ApplicationController
             else
               Job.published.recent
             end
-    @jobs =Job.paginate(:page => params[:page], :per_page => 20)        
+    @jobs =Job.paginate(:page => params[:page], :per_page => 20)
   end
 
     # 主页不需要用到下面这些功能，但测试可以用
