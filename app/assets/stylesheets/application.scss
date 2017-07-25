@@ -23,12 +23,12 @@
  @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 // -------字体·思源黑体-------
- // @import url('https://fonts.googleapis.com/earlyaccess/notosanssc.css');   //引入google思源黑简在线字体 需要使用VPN才可生效
- //
- // body {
- //      font-family: 'Noto Sans SC', sans-serif;            // google思源黑简作为主字体
- //      color: #666;                                        // 修改全站的字体主色 压低亮度
- //      }
+ @import url('https://fonts.googleapis.com/earlyaccess/notosanssc.css');   //引入google思源黑简在线字体 需要使用VPN才可生效
+
+ body {
+      font-family: 'Noto Sans SC', sans-serif;            // google思源黑简作为主字体
+      color: #666;                                        // 修改全站的字体主色 压低亮度
+      }
  //---------Navbar---------
 
 .navbar-default {
