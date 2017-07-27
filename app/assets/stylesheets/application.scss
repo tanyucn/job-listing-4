@@ -75,8 +75,8 @@
 }
 
 .container-fluid {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 5px;
+    margin-left: 5px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -85,6 +85,10 @@
     float: right !important;
     margin-right: 0px;
 }
+
+
+
+
 
 //---------Box---------
 
@@ -125,12 +129,12 @@
 //---------Content---------
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 0px 0;
     background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 0px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
@@ -157,8 +161,8 @@
  }
 
  footer .footer-below {
-     padding: 15px 0;
-     background-color: #233140;
+     padding: 40px 0;
+     background-color: #212121;
  }
 
 // 添加admin表壳外框
