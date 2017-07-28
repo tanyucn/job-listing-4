@@ -60,6 +60,7 @@
     <% end %>
 </table>
 
+<!-- ----分页+美化---- -->
 <div class="text-center">
-  <%= will_paginate @jobs %>
+  <%= will_paginate @jobs, renderer: BootstrapPagination::Rails %>
 </div>
